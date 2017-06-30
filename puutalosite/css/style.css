@@ -1,0 +1,645 @@
+*{
+	margin: 0;
+	padding:0;
+}
+
+.clearfix::after{
+	content:"";
+	display: block;
+	clear: both;
+}
+header{
+	position: fixed;
+	z-index: 2;
+	height: 60px;
+	width: 100%;
+    background:linear-gradient(white 70%,white 70%,transparent 100%);
+}
+
+.logo{
+	height:50px;
+	margin-left: 10%; 
+}
+nav{
+	float: right;
+	width: 70%;
+}
+
+.top-menu{
+	width: 95%;
+	float: right;
+	margin-right: 10%;
+}
+
+.top-menu-item{
+	float: right;
+	margin-right: 6%;
+	margin-top: 3px;
+	list-style-type: none;
+	color: #005a6f;
+}
+
+.top-menu-item img{
+	height: 40px;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+/*メインビジュアル*/
+.top{
+	width: 100%;
+	position: relative;
+	margin-bottom: 50px;
+	padding-top: 59px;
+}
+.mv{
+   width:100%
+}
+
+main{
+	max-width: 1024px;
+    margin: 0 auto;
+    border:1px solid #cccccc;
+    border-top-style: none;
+    box-sizing: border-box;
+}
+
+
+/*メインメッセージ*/
+.invite{
+	width: 30%;
+    height: 80%;
+    /*background-color:orange;*/
+    position: absolute;
+    top:calc(100%/10);
+	left: calc(100%/2);
+}
+
+.mm{
+	width: 100%;
+	height:30%;
+	/*background-color: pink;*/
+	position: absolute;
+	
+}
+.shallwe{
+	width: 100%;
+	padding-top: 30%;
+	margin: 0 auto;
+
+}
+.top p{
+	color:#999999;
+	/*background-color: green;*/
+	padding-top:65%;
+	height: 100%;
+	box-sizing: border-box;
+	text-align: center;
+    font-size: 1.5vw;
+    font-family:"Kokoro";
+}
+
+main{
+	font-family:"メイリオ" sans-serif; 
+}
+article{
+	font-size:14px;
+}
+/*Which do you like?*/
+.line{
+	display: block;
+	width:90%;
+	margin:20px auto;
+}
+
+h2{
+	font-size: 16px;
+	text-align:center;
+	margin: 50px 0;
+	color:#999999;
+}
+
+
+.contaier{
+	width:90%;
+	height:800px;
+	/*background-color:gray;*/
+	margin: 0 auto;
+}
+
+.dotline{
+	margin: 20px 0; 
+	border-top:5px dotted #cccccc;
+	content:"";
+}
+/*(knit用)*/
+.knit{
+    width:100%;
+    height: 50%;
+    /*background-color:green;*/
+}
+/*(crochet用)*/
+.crochet{
+	width:100%;
+    height: 50%;
+    /*background-color:orange;*/
+}
+
+/*(共用)*/
+.box{
+	width:50%;
+	/*background-color:pink;*/
+	position: relative;
+}
+
+.hako{
+	width:50%;
+	/*background-color:pink;*/
+	float:right;
+}
+
+
+/*(knit用)*/
+.box1{
+	float:left;
+}
+.knit1{
+	width:80%;
+    position:absolute;
+    top:30px;
+    left:30px;
+}
+.squareBox1g {
+    width:80%;
+	border:10px solid #b3ceb3;
+	box-sizing:border-box;
+}
+
+/*(crochet用)*/
+.box2{
+	float: right;
+}
+
+.cro1{
+	width:80%;
+    position:absolute;
+    top:30px;
+    right:30px;
+}
+.squareBox1y {
+    width:80%;
+	border:10px solid #ffff99;
+	box-sizing:border-box;
+	float:right;
+}
+
+/*(knit用)*/
+.index{
+	width:90%;
+	height:28%;	
+}
+/*(knit用)*/
+.index1{
+	float:right;
+	background:linear-gradient(transparent 70%,#b3ceb3 70%,#b3ceb3 100%);
+}
+
+/*(crochet用)*/
+.index2{
+	float: left;
+	background:linear-gradient(transparent 70%,#ffff99 70%,#ffff99 100%);
+}
+
+/*(共用)*/
+.indexs{
+	width:100%;
+	height: 8%;
+	margin: 1%;
+	background:none;
+	float: right;
+}
+
+/*(knit用)*/
+.knitlogo{
+	height: 90px;
+	float:right;
+	}
+.boulogo{
+	height:20px;
+	float: right;
+}
+
+/*(crochet用)*/
+
+.crologo{
+	height: 90px;
+	float:left;
+	}
+.kagilogo{
+	height:20px;
+	float:left;
+}
+
+
+/*(knit用)*/
+.caption1{
+	width:100%;
+	/*background-color:violet;*/
+	float:right;
+
+}
+.caption1 p{
+	float: left;
+}
+
+.photos{
+	width: 100%;
+	height: 150px;
+	float: right;
+	/*background-color: silver;*/
+}
+.sample{
+	display: block;
+	float:left;
+	padding-top: 3%;
+	width:calc(88%/3);
+}
+
+.sample:nth-child(2){
+	margin:0 6%;
+}
+
+
+/*(crochet用)*/
+.caption2{
+	width:100%;
+	/*background-color:violet;*/
+	float:right;
+}
+
+.caption2 p{
+	text-align: right;
+}
+
+
+/*what do you choose? */
+
+#yarn{margin-top: 50px;}
+
+.contaier2{
+	width:90%;
+	/*background-color:gray;*/
+	margin: 0 auto;
+}
+
+.index3{
+	width: 173px;
+	height:90px;
+    /*background-color:pink;*/
+	margin:0 auto;
+	position: relative;
+}
+
+
+.lineboxy{
+	width: 173px;
+	height:90px;
+    background:linear-gradient(transparent 70%,#ffff99 70%,#ffff99 100%);
+    position: absolute;
+    bottom:0;
+    left: -35px;
+    z-index: -1;
+}
+
+.lineboxg{
+	width: 173px;
+	height:90px;
+	box-sizing: border-box;
+    background:linear-gradient(transparent 70%,#b3ceb3 70%,#b3ceb3 100%);
+    position: absolute;
+    top:-27px;
+    right:-35px;
+    z-index: -1;
+}
+
+.yarnlogo{
+	height: 90px;
+	margin:0 auto;
+	}
+
+
+.itologo{
+	height:20px;
+	display: block;
+	margin: 10px auto;
+}
+
+/*(イメージ)*/
+.imgbox{
+	width: 100%;
+    position:relative;
+
+}
+.yarns{
+	width:90%;
+	display: block;
+	margin:0 auto;  	
+}
+.squareBox2g {
+    width:40%;
+	border:10px solid #b3ceb3;
+	box-sizing:border-box;
+	position: absolute;
+	top:10%;
+	z-index: -1;
+}
+.squareBox2y {
+    width:40%;
+	border:10px solid #ffff99;
+	box-sizing:border-box;
+	position: absolute;
+    right: 0;
+	bottom: 5%;
+	z-index: -1;
+	}
+
+.p1{
+	padding: 2%;
+	width: 60%;
+	box-sizing: border-box;
+}
+
+
+.p2{
+	padding: 2%;
+	width: 60%;
+	box-sizing: border-box;
+	float: left;
+}
+
+/*what do you use?*/
+.index4{
+	width: 95%;
+	height:90px;
+	/*background-color:pink;*/
+	margin:0 auto;
+	position: relative;
+}
+
+.logoliney{
+	width:calc(70%/2);
+	height:90px;
+    background:linear-gradient(transparent 70%,#ffff99 70%,#ffff99 100%);
+    position: absolute;
+    right:9%;
+    z-index: -1;
+}
+
+.logolineg{
+	width:calc(70%/2);
+	height:90px;
+    background:linear-gradient(transparent 70%,#b3ceb3 70%,#b3ceb3 100%);
+    position: absolute;
+    left: 9%;
+    z-index: -1;
+
+}
+
+.toolslogo{
+	display: block;
+	height: 90px;
+	margin:0 auto;
+}
+
+
+.dougulogo{
+	height:20px;
+	display: block;
+	margin: 10px auto;
+}
+
+
+.btool{
+	width: 60%;
+	/*height: 200px;*/
+	padding-right: 1%;
+	/*background-color: yellow;*/
+	box-sizing: border-box;
+	float:left;
+	position: relative;
+}
+.squareBox3g {
+    width:93%;
+	border:10px solid #b3ceb3;
+	box-sizing:border-box;
+	position: absolute;
+	top:10%;
+	z-index: -1;
+}
+
+.ktool{
+	width: 40%;
+    padding-left: 1%;
+	/*background-color: pink;*/
+	box-sizing: border-box;
+	float:left;
+	position: relative;
+}
+
+.squareBox3y {
+    width:93%;
+	border:10px solid #ffff99;
+	box-sizing:border-box;
+	position: absolute;
+    left: 7%;
+	top: 50%;
+	z-index: -1;
+	}
+
+
+.bouphoto{
+	width: 90%;
+	
+	float:right;
+}
+
+.kagiphoto{
+	width: 90%;
+	float: left;
+}
+.caption3{
+	width: 90%;
+	float:right;
+	text-align: left;
+}
+.caption4{
+	width: 90%;
+	float:left;
+	text-align:center;
+}
+.alltools{
+	width: 80%;
+	margin:0 auto;
+	text-align: center;
+}
+.tphoto{
+	display: block;
+	width:80%;
+	margin:0 auto; 
+}
+
+#tools p{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+/*プロフィール*/
+.profile{
+	font-size: 12px;
+}
+.amiema{
+	width: 80%;
+}
+.amiema img{
+	width: 25%;
+	border-radius: 50%;
+	float: left;
+	margin:0 3% 0 10%;
+} 
+.amiema p{
+	float: left;
+}
+
+
+.puutalo img{
+	width: 15%;
+	float: right;
+	margin-top: 3%;
+	margin-right: 3%
+}
+.puutalo p{
+	float:right;
+	text-align: right;
+	margin-bottom:10px;
+}
+/*フッター*/
+.footer{
+	width: 100%;
+	height: 60px;
+	background-color: #005a6f;
+	text-align: center;
+	color: white;
+	line-height: 60px;
+
+}
+
+.respo{
+	display: none
+}
+
+/*レスポンシブ対応*/
+
+@media (max-width: 768px){
+
+.top-menu{
+	display: none;
+}
+
+h2{
+	font-size: 12px;
+	margin: 10px auto;
+}
+
+
+article{
+	font-size:11px;
+}
+
+.box{
+	width:80%;
+	float: none;
+	margin: 0 auto;
+}
+
+.hako{
+	width:80%;
+	/*background-color:pink;*/
+	float:none;
+	margin: 50px auto;
+}
+
+.index{
+	width:90%;
+	margin: 0 auto;
+	}
+/*(knit用)*/
+.index1{
+	float:none;
+}
+
+.knitlogo{
+	height: 90px;
+	float:none;
+	display: block;
+	margin: 0 auto;
+	}
+.boulogo{
+	height:20px;
+	float: none;
+	display: block;
+	margin: 0 auto;
+}
+
+.caption1 p{
+	float:none;
+	text-align: center;
+}
+
+.photos{
+	display: none;
+}
+
+
+.dotline{
+	display: none;
+}
+
+.box2{
+	display: none;
+}
+.respo{
+	display: block;
+}
+
+/*(crochet用)*/
+.index2{
+	float:none;
+}
+
+.crologo{
+	height:80px;
+	float:none;
+	display: block;
+	margin: 0 auto;
+	}
+.kagilogo{
+	height:20px;
+	float: none;
+	display: block;
+	margin: 0 auto;
+}
+
+.cro1{
+	width:80%;
+    position:absolute;
+    top:30px;
+    right:30px;
+}
+
+.caption2 p{
+	float:none;
+	text-align: center;
+}
