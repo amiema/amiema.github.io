@@ -89,8 +89,14 @@ main{
 	width: 100%;
 	padding-top: 30%;
 	margin: 0 auto;
-
 }
+
+.shallwe2{
+	display:none;
+}
+
+
+
 .top p{
 	color:#999999;
 	/*background-color: green;*/
@@ -424,7 +430,6 @@ h2{
 
 .btool{
 	width: 60%;
-	/*height: 200px;*/
 	padding-right: 1%;
 	/*background-color: yellow;*/
 	box-sizing: border-box;
@@ -544,20 +549,42 @@ h2{
 
 @media (max-width: 768px){
 
-.top-menu{
-	display: none;
+header{
+	height: 30px;
+	}
+
+.logo{
+	height:30px;
+	margin-left: 10px; 
+}
+.top{
+	padding-top: 30px
+}
+.top-menu-item img{ 
+	height: 15px;
 }
 
 h2{
-	font-size: 12px;
+	font-size: 11px;
 	margin: 10px auto;
 }
 
 
 article{
-	font-size:11px;
+	font-size:10px;
 }
+.invite{display: none;}
 
+.shallwe2{
+	display: block;
+	position: absolute;
+	width: 45%;
+	top:45%;
+	right: 12%;
+
+
+
+}
 .box{
 	width:80%;
 	float: none;
@@ -565,7 +592,7 @@ article{
 }
 
 .hako{
-	width:80%;
+	width:90%;
 	/*background-color:pink;*/
 	float:none;
 	margin: 50px auto;
@@ -620,7 +647,7 @@ article{
 }
 
 .crologo{
-	height:80px;
+	height:60px;
 	float:none;
 	display: block;
 	margin: 0 auto;
@@ -642,4 +669,110 @@ article{
 .caption2 p{
 	float:none;
 	text-align: center;
+}
+
+#yarn p{
+	text-align: left;
+}
+
+
+.squareBox2g {
+    width:30%;
+	top:30%;
+}
+.squareBox2y {
+    width:30%;
+	bottom: 25%;
+	}
+
+.p1{
+	padding: 2%;
+	width: 100%;
+	}
+
+
+.p2{
+	padding: 2%;
+	width: 100%;
+}
+
+
+.btool{
+	width:100%;
+	float:none;
+	position: relative;
+}
+
+.squareBox3g {
+    width:58%;
+    top:155%;
+}
+
+
+.squareBox3y {
+    width:59%;
+	position: absolute;
+    left:40%;
+	top: 60%;
+	z-index: -1;
+	}
+
+.bouphoto{
+	width: 85%;
+	}
+
+.caption3{
+	width: 100%;
+	padding-top: 20px;
+}
+
+
+.ktool{
+	width: 100%;
+	float:none;
+	/*position: relative;*/
+}
+
+.del{
+	display: none;
+}
+
+.center{
+	text-align: center;
+}
+
+.kagiphoto{
+	width: 80%;
+}
+
+
+.caption4{
+	width: 90%;
+	float:left;
+	text-align:left;
+	padding-top: 10%;
+}
+
+.profile{
+	font-size: 8px;
+}
+
+
+.amiema{
+	width: 100%;
+}
+.amiema img{
+	width: 25%;
+	border-radius: 50%;
+	float: left;
+	margin:0 3% 0 10%;
+} 
+.amiema p{
+	float: left;
+}
+
+.footer{
+	height: 30px;
+	line-height: 30px;
+
 }
