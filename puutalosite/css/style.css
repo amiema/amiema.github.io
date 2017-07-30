@@ -72,7 +72,6 @@ main{
 .invite{
 	width: 30%;
     height: 80%;
-    /*background-color:orange;*/
     position: absolute;
     top:calc(100%/10);
 	left: calc(100%/2);
@@ -81,7 +80,6 @@ main{
 .mm{
 	width: 100%;
 	height:30%;
-	/*background-color: pink;*/
 	position: absolute;
 	
 }
@@ -99,7 +97,6 @@ main{
 
 .top p{
 	color:#999999;
-	/*background-color: green;*/
 	padding-top:65%;
 	height: 100%;
 	box-sizing: border-box;
@@ -132,7 +129,6 @@ h2{
 .contaier{
 	width:90%;
 	height:800px;
-	/*background-color:gray;*/
 	margin: 0 auto;
 }
 
@@ -145,25 +141,21 @@ h2{
 .knit{
     width:100%;
     height: 50%;
-    /*background-color:green;*/
 }
 /*(crochet用)*/
 .crochet{
 	width:100%;
     height: 50%;
-    /*background-color:orange;*/
 }
 
 /*(共用)*/
 .box{
 	width:50%;
-	/*background-color:pink;*/
 	position: relative;
 }
 
 .hako{
 	width:50%;
-	/*background-color:pink;*/
 	float:right;
 }
 
@@ -253,7 +245,6 @@ h2{
 /*(knit用)*/
 .caption1{
 	width:100%;
-	/*background-color:violet;*/
 	float:right;
 
 }
@@ -265,7 +256,6 @@ h2{
 	width: 100%;
 	height: 150px;
 	float: right;
-	/*background-color: silver;*/
 }
 .sample{
 	display: block;
@@ -282,7 +272,6 @@ h2{
 /*(crochet用)*/
 .caption2{
 	width:100%;
-	/*background-color:violet;*/
 	float:right;
 }
 
@@ -297,14 +286,12 @@ h2{
 
 .contaier2{
 	width:90%;
-	/*background-color:gray;*/
 	margin: 0 auto;
 }
 
 .index3{
 	width: 173px;
 	height:90px;
-    /*background-color:pink;*/
 	margin:0 auto;
 	position: relative;
 }
@@ -390,7 +377,6 @@ h2{
 .index4{
 	width: 95%;
 	height:90px;
-	/*background-color:pink;*/
 	margin:0 auto;
 	position: relative;
 }
@@ -431,7 +417,6 @@ h2{
 .btool{
 	width: 60%;
 	padding-right: 1%;
-	/*background-color: yellow;*/
 	box-sizing: border-box;
 	float:left;
 	position: relative;
@@ -448,7 +433,6 @@ h2{
 .ktool{
 	width: 40%;
     padding-left: 1%;
-	/*background-color: pink;*/
 	box-sizing: border-box;
 	float:left;
 	position: relative;
@@ -512,23 +496,23 @@ h2{
 	width: 25%;
 	border-radius: 50%;
 	float: left;
-	margin:0 3% 0 10%;
+	margin-bottom: 3%;
 } 
 .amiema p{
 	float: left;
+	margin-top: 3%;
+	margin-left: 3%;
 }
-
 
 .puutalo img{
 	width: 15%;
+	margin-right: 3%;
+	margin-top: 12%;
 	float: right;
-	margin-top: 3%;
-	margin-right: 3%
 }
 .puutalo p{
 	float:right;
 	text-align: right;
-	margin-bottom:10px;
 }
 /*フッター*/
 .footer{
@@ -544,6 +528,10 @@ h2{
 .respo{
 	display: none
 }
+
+
+
+
 
 /*レスポンシブ対応*/
 
@@ -593,7 +581,6 @@ article{
 
 .hako{
 	width:90%;
-	/*background-color:pink;*/
 	float:none;
 	margin: 50px auto;
 }
@@ -728,7 +715,6 @@ article{
 .ktool{
 	width: 100%;
 	float:none;
-	/*position: relative;*/
 }
 
 .del{
@@ -759,16 +745,10 @@ article{
 .amiema{
 	width: 100%;
 }
-.amiema img{
-	width: 25%;
-	border-radius: 50%;
-	float: left;
-	margin:0 3% 0 10%;
-} 
-.amiema p{
-	float: left;
-}
 
+.puutalo img{
+	width:30%; 
+}
 .footer{
 	height: 30px;
 	line-height: 30px;
